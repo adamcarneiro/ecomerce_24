@@ -1,0 +1,6 @@
+<nav>
+  <a routerLink="/products">Products</a>
+  <a routerLink="/cart">Cart({{getTotalItemsCar()}})</a>
+  <button (click)="logout()">Logout</button>
+</nav>
+<router-outlet></router-outlet>
